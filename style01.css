@@ -2,6 +2,19 @@ html, body {
     height: 100%;
 }
 
+.offcanvas-end {
+    right: 0;
+    left: auto;
+}
+.offcanvas {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 #page-container {
     display: flex;
     flex-direction: column;
@@ -21,7 +34,7 @@ html, body {
 }
 
 .square-content {
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
@@ -35,7 +48,7 @@ html, body {
     overflow: hidden;
     box-sizing: border-box;
 }
-.sqaure-content h1{
+.square-content h1{
     margin-bottom: auto;
     text-align: center;
 }
@@ -103,3 +116,4 @@ header {
     left: 20px; 
     right: 20px; 
 }
+
