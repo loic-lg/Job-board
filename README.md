@@ -128,3 +128,5 @@ Once everything is configured:
 
 Open your browser and go to http://localhost/project-name/.
 The homepage should now display the job board.
+
+have fun !
