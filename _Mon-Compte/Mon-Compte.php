@@ -135,7 +135,7 @@ if (isset($_SESSION['user_id'])) {
             <?php } ?>
         </div>
 
-        <!-- Footer -->
+
         <footer class="bg-dark text-white py-4 mt-auto">
             <div class="container text-center">
                 <p>&copy; Tous droits réservés.</p>
